@@ -1,4 +1,4 @@
-package com.hunglp.behavior.obsever;
+package com.hunglp.behavior.obsever.solution;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.hunglp.behavior.obsever;
+package com.hunglp.behavior.obsever.solution;
 
 public class PhoneDisplay implements Observer{
 

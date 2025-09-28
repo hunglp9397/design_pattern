@@ -1,6 +1,10 @@
 package com.hunglp.behavior.obsever;
 
 /*
+
+ OBSERVER PATTERN = PUBLISHER + SUBSCRIBERS
+                    (Subject) + (Observers)
+
  Được sử dung trong mối quan hệ 1-N giữa các object với nhau
 
  Khi một đối tượng thay đổi, thì nó sẽ bắn event đó đến tất cả các object liên quan

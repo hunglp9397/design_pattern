@@ -1,4 +1,4 @@
-package com.hunglp.behavior.obsever;
+package com.hunglp.behavior.obsever.solution;
 
 public class TVDisplay implements Observer{
 
@@ -7,7 +7,7 @@ public class TVDisplay implements Observer{
     @Override
     public void update(String weather) {
         this.weatherOnTV = weather;
-        System.out.println("TV Display|Weather updated: " + this.weatherOnTV);
+        System.out.println("TV Display | Weather updated: " + this.weatherOnTV);
     }
 
     @Override

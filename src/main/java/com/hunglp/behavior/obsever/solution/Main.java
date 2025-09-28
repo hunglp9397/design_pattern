@@ -1,4 +1,4 @@
-package com.hunglp.behavior.obsever;
+package com.hunglp.behavior.obsever.solution;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,8 +13,9 @@ public class Main {
         weatherStation.add(phoneDisplay);
         weatherStation.setWeather("Sunny");
 
-       tvDisplay.getCurrentWeather();
-       phoneDisplay.getCurrentWeather();
+        System.out.println("-----RESULT------");
+        tvDisplay.getCurrentWeather();
+        phoneDisplay.getCurrentWeather();
 
     }
 }
